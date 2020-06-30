@@ -892,11 +892,13 @@
 // alert(mulArray);
 
 //Task # 2
-// var arr = [[0,1,2,3] , [1,0,1,2],[2,1,0,1]];
-// for (var i=0 ; i<arr.length ; i++){
-//     for (j=0 ; j< 4 ;j++){
-//     document.write(arr[i][j]  );
+// var arr = new Array([0,1,2,3],[1,0,1,2],[2,1,0,1])
+// for (var i = 0; i < 4; i++){
+//     for (var j = 0; j < 4; j++){
+//         document.write(arr[i][j]+" ")
 //     }
+//     document.write("<br>")
+// }
     
 
 
@@ -1009,6 +1011,160 @@
 // for (var i = 1 ; i<=20 ;i++){
 //     document.write(number*i +",");
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =============================================================================== //
+
+
+
+// var pass = prompt("Enter password: ");
+// for (var i = 0; i<pass.length;i++){
+//     for (var j=48;j<58;j++){
+//         if(j===(pass.charCodeAt(i))){var num = 1;}
+//         if(j===(pass.charCodeAt(0))){var invalid = 0;}
+//     }
+//     for (var k=65;k<91;k++){
+//         if(k===(pass.charCodeAt(i))){var alp = 1;}
+//     }
+//     for (var k=97;k<123;k++){
+//         if(k===(pass.charCodeAt(i))){var alp = 1; }
+//     }
+//     if((num === 1 && alp === 1) && invalid!=0 && pass.length >= 6){var condition = 1; break; }
+//     else{continue;}
+// }
+// if(condition === 1){document.write("Entered Password: "+pass+"<br>"+"Passwrod is correct")}
+// else{document.write("Entered Password: "+pass+"<br>"+"Please insert a valid password")}
+
+
+
+
+// var weight = prompt("Enter your weight: ");
+// var number = []
+// for (var i = 0; i<weight.length;i++){
+//     for (var j=46;j<58;j++){
+//         if(j===(weight.charCodeAt(i))){
+//             number.push(weight[i])
+//             var a = 1
+//         }
+//     }
+// }
+// var check = number.length
+// var mylist = weight.slice(check)
+// if (mylist === "" || mylist ==="kgs" || mylist === "kilograms"){
+//     if(a === 1){
+//         document.write("The weight of user is ")
+//         for(var b = 0;b<number.length;b++){
+//             document.write(number[b])
+//         }
+//         document.write(" kilograms")
+//     }
+//     else{
+//         document.write("invalid Weight")
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
